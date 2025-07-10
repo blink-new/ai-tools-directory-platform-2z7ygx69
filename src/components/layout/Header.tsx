@@ -34,7 +34,7 @@ export function Header() {
             <div className="flex items-center justify-center w-8 h-8 bg-primary-600 rounded-lg">
               <Zap className="w-5 h-5 text-white" />
             </div>
-            <span className="text-xl font-bold text-primary-800">AI Tools</span>
+            <span className="font-heading text-xl font-bold text-primary-800">AI Tools</span>
           </div>
 
           {/* Search Bar - Desktop */}
@@ -56,7 +56,7 @@ export function Header() {
               <a
                 key={item.name}
                 href={item.href}
-                className="flex items-center space-x-2 text-sm font-medium text-gray-700 hover:text-primary-600 transition-colors"
+                className="flex items-center space-x-2 text-sm font-medium text-gray-700 hover:text-primary-600 transition-colors font-heading"
               >
                 <item.icon className="w-4 h-4" />
                 <span>{item.name}</span>
@@ -91,7 +91,7 @@ export function Header() {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="flex items-center space-x-3 text-lg font-medium text-gray-700 hover:text-primary-600 transition-colors"
+                      className="flex items-center space-x-3 text-lg font-medium text-gray-700 hover:text-primary-600 transition-colors font-heading"
                       onClick={() => setIsOpen(false)}
                     >
                       <item.icon className="w-5 h-5" />
@@ -102,7 +102,7 @@ export function Header() {
 
                 {/* Mobile Categories */}
                 <div className="pt-4 border-t">
-                  <h3 className="text-sm font-semibold text-gray-900 mb-3">Categories</h3>
+                  <h3 className="text-sm font-semibold text-gray-900 mb-3 font-heading">Categories</h3>
                   <div className="grid grid-cols-1 gap-2">
                     {categories.map((category) => (
                       <a

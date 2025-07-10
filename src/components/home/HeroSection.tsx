@@ -27,13 +27,13 @@ export function HeroSection() {
       <div className="container mx-auto px-4 py-16 md:py-24 relative">
         <div className="max-w-4xl mx-auto text-center">
           {/* Badge */}
-          <Badge className="mb-6 bg-primary-100 text-primary-800 hover:bg-primary-200 px-4 py-2 text-sm font-medium">
+          <Badge className="mb-6 bg-primary-100 text-primary-800 hover:bg-primary-200 px-4 py-2 text-sm font-medium btn-primary">
             <Sparkles className="w-4 h-4 mr-2" />
             Discover the Future of AI
           </Badge>
 
           {/* Main Headline */}
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+          <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
             Find the Perfect
             <span className="bg-gradient-to-r from-primary-600 to-indigo-600 bg-clip-text text-transparent">
               {' '}AI Tool
@@ -43,7 +43,7 @@ export function HeroSection() {
           </h1>
 
           {/* Subheadline */}
-          <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
+          <p className="font-sans text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed font-normal">
             Discover, compare, and choose from over 1,200+ AI tools. 
             From content creation to business automation, find the perfect AI solution.
           </p>
