@@ -47,11 +47,11 @@ export function ToolCard({ tool }: ToolCardProps) {
   }
 
   return (
-    <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 relative overflow-hidden">
+    <Card className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-1 relative overflow-hidden">
       {/* Sponsored Badge */}
       {tool.sponsored && (
         <div className="absolute top-3 right-3 z-10">
-          <Badge className="bg-amber-100 text-amber-800 text-xs">
+          <Badge className="bg-primary-100 text-primary-700 text-xs">
             <Crown className="w-3 h-3 mr-1" />
             Sponsored
           </Badge>
@@ -61,7 +61,7 @@ export function ToolCard({ tool }: ToolCardProps) {
       {/* Featured Badge */}
       {tool.featured && !tool.sponsored && (
         <div className="absolute top-3 right-3 z-10">
-          <Badge className="bg-purple-100 text-purple-800 text-xs">
+          <Badge className="bg-secondary-100 text-secondary-800 text-xs">
             <Zap className="w-3 h-3 mr-1" />
             Featured
           </Badge>

@@ -4,13 +4,13 @@ import { Badge } from '@/components/ui/badge'
 
 export function SponsoredBanner() {
   return (
-    <section className="py-16 bg-gradient-to-br from-amber-50 to-orange-50">
+    <section className="py-16 bg-primary-50">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 border border-amber-200">
+          <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12 border border-primary-100">
             <div className="flex flex-col md:flex-row items-center justify-between">
               <div className="md:w-2/3 mb-6 md:mb-0">
-                <Badge className="bg-amber-100 text-amber-800 mb-4 inline-flex items-center">
+                <Badge className="bg-primary-100 text-primary-700 mb-4 inline-flex items-center">
                   <Crown className="w-4 h-4 mr-2" />
                   Sponsored
                 </Badge>
@@ -33,14 +33,14 @@ export function SponsoredBanner() {
                     Easy Integration
                   </Badge>
                 </div>
-                <Button size="lg" className="bg-amber-600 hover:bg-amber-700">
+                <Button size="lg" className="bg-primary hover:bg-primary/90">
                   Start Free Trial
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </div>
               <div className="md:w-1/3 md:pl-8">
-                <div className="bg-gradient-to-br from-amber-100 to-orange-100 rounded-xl p-6 text-center">
-                  <div className="w-16 h-16 bg-amber-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="bg-gradient-to-br from-primary-100 to-blue-100 rounded-xl p-6 text-center">
+                  <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
                     <Zap className="w-8 h-8 text-white" />
                   </div>
                   <h4 className="text-xl font-semibold text-gray-900 mb-2">DataSense AI</h4>
@@ -49,11 +49,11 @@ export function SponsoredBanner() {
                   </p>
                   <div className="flex justify-center space-x-4 text-sm">
                     <div>
-                      <div className="font-semibold text-amber-600">4.9★</div>
+                      <div className="font-semibold text-primary">4.9★</div>
                       <div className="text-gray-500">Rating</div>
                     </div>
                     <div>
-                      <div className="font-semibold text-amber-600">10K+</div>
+                      <div className="font-semibold text-primary">10K+</div>
                       <div className="text-gray-500">Users</div>
                     </div>
                   </div>
